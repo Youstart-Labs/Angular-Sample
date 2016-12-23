@@ -11,7 +11,7 @@
     function HomeCtrl(DataService) {
         const home = this;
         home.title = 'Home';
-        console.log("home");
+        console.log('Home Ctrl');
 
         activate();
 

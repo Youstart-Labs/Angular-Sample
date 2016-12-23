@@ -2,9 +2,10 @@ angular
     .module('starterApp')
     .config(config);
 
-config.$inject = [];
+config.$inject = ['$qProvider'];
 
 /* @ngInject */
-function config () {
+function config ($qProvider) {
     console.log('config');
+    // $qProvider.errorOnUnhandledRejections(false)
 }

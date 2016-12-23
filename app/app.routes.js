@@ -15,7 +15,7 @@ function config ($stateProvider,$urlRouterProvider) {
         controllerAs: 'home',
     });
 
-    $urlRouterProvider.otherwise('/home')
+    $urlRouterProvider.otherwise('/home');
 
 
 }

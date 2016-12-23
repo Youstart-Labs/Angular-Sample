@@ -12,7 +12,7 @@
         this.functionName = functionName;
         
         function functionName() {
-            console.log('random function');
+            return 'randomService';
         }
     }
 
