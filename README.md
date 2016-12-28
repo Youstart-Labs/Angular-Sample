@@ -30,12 +30,12 @@ git clone https://github.com/abhishekrathore/Angular-Sample
 
 * Install the gulp dependencies
 ```
-npm installl
+npm install
 ```
 
 * Install bower dependencies
 ```
-bower installl
+bower install
 ```
 
 * Delete the .git folder
